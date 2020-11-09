@@ -1,0 +1,17 @@
+<div class="container">
+  <h1>Your trusted URL Shortener</h1>
+  <form method='POST' action='/url'>
+    <div class="form-group">
+      <label for="url">URL to be shorten</label>
+      <input type="text" name="url" class="form-control" id="url" aria-describedby="url"
+        placeholder="https://www.google.com" required>
+      <small>Please use https for secured connection</small>
+    </div>
+    <div class="form-group">
+      <label for="slug">Your preferred Slug</label>
+      <input type="slug" name="slug" class="form-control" id="slug">
+      <small>You may leave slug empty</small>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
